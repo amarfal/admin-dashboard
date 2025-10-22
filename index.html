@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css">
+
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Admin Dashboard</h1>
+
+  <div class="layout">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="brand">
+        <span class="mdi mdi-view-dashboard-outline"></span>
+        <span>Dashboard</span>
+      </div>
+
+      <nav class="nav">
+        <a class="nav__link" href="#"><i class="mdi mdi-home"></i> Home</a>
+        <a class="nav__link" href="#"><i class="mdi mdi-account-circle-outline"></i> Profile</a>
+        <a class="nav__link" href="#"><i class="mdi mdi-email-outline"></i> Messages</a>
+        <a class="nav__link" href="#"><i class="mdi mdi-history"></i> History</a>
+        <a class="nav__link" href="#"><i class="mdi mdi-clipboard-check-outline"></i> Tasks</a>
+        <a class="nav__link" href="#"><i class="mdi mdi-account-group-outline"></i> Communities</a>
+
+        <div class="nav__sep"></div>
+
+        <a class="nav__link" href="#"><i class="mdi mdi-cog-outline"></i> Settings</a>
+        <a class="nav__link" href="#"><i class="mdi mdi-help-circle-outline"></i> Support</a>
+        <a class="nav__link" href="#"><i class="mdi mdi-shield-check-outline"></i> Privacy</a>
+      </nav>  
 </body>
 </html>
