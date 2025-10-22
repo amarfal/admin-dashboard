@@ -46,23 +46,31 @@
     <main class="main">
       <!-- Top bar -->
       <header class="header">
-        <div class="search">
-          <i class="mdi mdi-magnify"></i>
-          <input type="search" placeholder="search"/>
-        </div>
-
-        <div class="user">
+        <div class="header__top">
+          <div class="search">
+            <i class="mdi mdi-magnify"></i>
+            <input type="search" placeholder="search"/>
+          </div>
           <button class="icon-btn" aria-label="Notifications">
             <i class="mdi mdi-bell-outline"></i>
           </button>
-          <div class="avatar"><i class="mdi mdi-emoticon-cool-outline"></i></div>
+          <div class="avatar avatar--small"><i class="mdi mdi-emoticon-cool-outline"></i></div>
           <div class="user__name">Amar</div>
         </div>
 
-        <div class="cta">
-          <button class="pill">New</button>
-          <button class="pill">Upload</button>
-          <button class="pill">Share</button>
+        <div class="header__bottom">
+          <div class="user-greeting">
+            <div class="avatar avatar--large"><i class="mdi mdi-emoticon-cool-outline"></i></div>
+            <div class="greeting-text">
+              <div class="greeting-hello">Hi there,</div>
+              <div class="greeting-name">Amar (@amar)</div>
+            </div>
+          </div>
+          <div class="cta">
+            <button class="pill">New</button>
+            <button class="pill">Upload</button>
+            <button class="pill">Share</button>
+          </div>
         </div>
       </header>
 
